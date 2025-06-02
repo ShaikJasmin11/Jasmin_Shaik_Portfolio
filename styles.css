@@ -477,7 +477,7 @@ img {
 
 .about__card-title {
   font-weight: 600;
-  color: var(--first-color)
+  color: var(--first-color);
   margin: 0;
 }
 
@@ -669,7 +669,7 @@ img {
 .experience__company {
   font-size: 0.95rem;
   font-weight: 500;
-  color: var(--second-color);
+  color: black;
   display: block;
   margin-bottom: 0.6rem;
 }
@@ -721,7 +721,7 @@ img {
 .work__stack {
   font-size: 0.95rem;
   font-weight: 500;
-  color: var(--second-color);
+  color: black;
   display: block;
   margin-bottom: 0.6rem;
 }
@@ -758,7 +758,7 @@ img {
 }
 
 .work.section {
-  padding: 2rem 14rem;
+  padding: 4rem 14rem;
   scroll-margin-top: 30px;
 }
 
