@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <!-- =====BOX ICONS===== -->
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+
+    <title>Portfolio website complete</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+<header class="l-header">
+  <nav class="nav bd-grid">
+    <div>
+      <a href="#home" class="nav__logo">Jasmin Shaik</a>
+    </div>
+
+    <!-- Nav menu -->
+    <div class="nav__menu" id="nav-menu">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Hamburger toggle -->
+    <div class="nav__toggle" id="nav-toggle">
+      <i class="bx bx-menu"></i>
+    </div>
+  </nav>
+
+  <!-- Backdrop for mobile -->
+  <div class="nav__backdrop"></div>
+</header>
+
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+<!--===== HOME =====-->
+<section class="home section" id="home">
+  <div class="home__container">
+    <div class="home__content">
+      <h1 class="home__title">
+        Hi,<br />
+        I'm <span class="home__name-highlight">Jasmin</span><br />
+        Full Stack Dev | Freelancer | AI Engineer
+      </h1>
+      <p class="home__subtitle">Crafting modern web experiences & intelligent AI systems.</p>
+      <div class="home__cta-wrapper">
+  <a href="#contact" class="button">Contact</a>
+  <a href="#work" class="button button-outline">View Projects</a>
+  <!-- Social icons behind the button -->
+  <div class="home__social-behind">
+    <a href="https://linkedin.com/in/jasminshaik-tech" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+    <a href="https://github.com/ShaikJasmin11" class="home__social-icon"><i class="bx bxl-github"></i></a>
+    <a href="https://x.com/jasmin_sha51456" class="home__social-icon"><i class="bx bxl-twitter"></i></a>
+  </div>
+</div>
+    </div>
+
+    <div class="home__image">
+      <div class="home__avatar-bg">
+        <img src="avatar.png" alt="Avatar" class="home__avatar" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+  <h2 class="section-title">About Me</h2>
+
+  <div class="about__container bd-grid">
+    <!-- Left Column - Bio Box -->
+    <div class="about__bio-box">
+      <p>
+        Detail-oriented, technically proficient, and solution-driven Computer Science student with expertise in AI, web technologies, and digital marketing. Experienced in Python, machine learning, and SEO, with a strong grasp of automation and content strategy.
+      </p><br>
+      <p>
+        Hands-on work experience in building machine learning models, creating AI chatbots, and developing AI technology. Experienced in Figma web design, I specialize in posters, photos, and videos using Canva, Kinemaster, and InShot.
+      </p><br>
+      <p>
+        My strong problem-solving abilities and team leadership ensure successful outcomes in dynamic environments. Ready to work with dedication and eager to grow while contributing to impactful projects.
+      </p><br>
+    </div>
+
+    <!-- Right Column - Info Cards -->
+    <div class="about__cards-grid">
+      <div class="about__card">
+        <div class="about__icon"><i class='bx bxs-graduation'></i></div>
+        <div>
+          <h3 class="about__card-title">Education</h3>
+          <p class="about__card-text">B.Tech in Computer Science with a focus on Full Stack and AI/ML.</p>
+        </div>
+      </div>
+      <div class="about__card">
+        <div class="about__icon"><i class='bx bx-code-alt'></i></div>
+        <div>
+          <h3 class="about__card-title">Development</h3>
+          <p class="about__card-text">Full-stack experience with MERN stack and real-time applications.</p>
+        </div>
+      </div>
+      <div class="about__card">
+        <div class="about__icon"><i class='bx bxs-briefcase-alt-2'></i></div>
+        <div>
+          <h3 class="about__card-title">Experience</h3>
+          <p class="about__card-text">Interned as a developer and AI chatbot engineer at top firms.</p>
+        </div>
+      </div>
+      <div class="about__card">
+        <div class="about__icon"><i class='bx bx-paint'></i></div>
+        <div>
+          <h3 class="about__card-title">Design</h3>
+          <p class="about__card-text">UI/UX tools like Figma, focusing on clean and user-friendly interfaces.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!--===== SKILLS =====-->
+<section class="skills section" id="skills">
+  <h2 class="section-title">My Skills</h2>
+
+  <div class="skills__container bd-grid">
+    <!-- Left: Technical Skills -->
+<div class="skills__technical-card">
+  <h3 class="skills__title">Technical Skills</h3>
+  <div class="skills__technical">
+    <div class="skill">
+      <div class="skill__info">
+        <span class="skill__name">HTML5</span>
+        <span class="skill__percentage">95%</span>
+      </div>
+      <div class="skill__bar">
+        <div class="skill__progress" style="width: 95%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill__info">
+        <span class="skill__name">CSS3</span>
+        <span class="skill__percentage">90%</span>
+      </div>
+      <div class="skill__bar">
+        <div class="skill__progress" style="width: 90%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill__info">
+        <span class="skill__name">JavaScript</span>
+        <span class="skill__percentage">80%</span>
+      </div>
+      <div class="skill__bar">
+        <div class="skill__progress" style="width: 80%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill__info">
+        <span class="skill__name">ReactJS</span>
+        <span class="skill__percentage">85%</span>
+      </div>
+      <div class="skill__bar">
+        <div class="skill__progress" style="width: 85%"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill__info">
+        <span class="skill__name">Python</span>
+        <span class="skill__percentage">75%</span>
+      </div>
+      <div class="skill__bar">
+        <div class="skill__progress" style="width: 75%"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Right: Soft Skills, Languages, Tools -->
+<div class="skills__tags-card">
+  <div class="skills__card">
+    <h3 class="skills__subtitle">Soft Skills</h3>
+    <div class="skills__tag-container">
+      <span class="tag">Leadership</span>
+      <span class="tag">Public Speaking</span>
+      <span class="tag">Team Collaboration</span>
+      <span class="tag">Problem Solving</span>
+    </div>
+  </div>
+
+  <div class="skills__card">
+    <h3 class="skills__subtitle">Languages</h3>
+    <div class="skills__tag-container">
+      <span class="tag">English</span>
+      <span class="tag">Telugu</span>
+      <span class="tag">Hindi</span>
+    </div>
+  </div>
+
+  <div class="skills__card">
+    <h3 class="skills__subtitle">Tools & Platforms</h3>
+    <div class="skills__tag-container">
+      <span class="tag">VS Code</span>
+      <span class="tag">Git & GitHub</span>
+      <span class="tag">Figma</span>
+      <span class="tag">Postman</span>
+    </div>
+  </div>
+</div>
+
+</section>
+       
+        <!--===== EDUCATION =====-->
+        <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__item">
+                    <h3 class="education__degree">Bachelor of Technology in Computer Science</h3>
+                    <span class="education__institution">Geethanjali Institute of Science and Technology</span>
+                    <span class="education__years">2022 - 2026</span>
+                    <p class="education__description">
+                        Focused on Full Stack Development, AI & ML and Hackathon Participant.
+                    </p>
+                </div>
+
+                <div class="education__item">
+                    <h3 class="education__degree">Intermediate (MPC)</h3>
+                    <span class="education__institution">Sri Swarnandhra Bharathi Junior College</span>
+                    <span class="education__years">2020 - 2022</span>
+                    <p class="education__description">
+                        Scored 93%. Studied Mathematics, Physics & Chemistry with a focus on
+                        problem-solving and logical thinking.
+                    </p>
+                </div>
+
+                <div class="education__item">
+                    <h3 class="education__degree">Secondary School</h3>
+                    <span class="education__institution">Prospero English Medium High School</span>
+                    <span class="education__years">2019 - 2020</span>
+                    <p class="education__description">
+                        Completed SSC with distinction. Active in school events and tech competitions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== EXPERIENCE =====-->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+                <div class="experience__item">
+                    <h3 class="experience__role">AI Chatbot Development Intern</h3>
+                    <span class="experience__company">Haakwin | 11/2024 - 12/2024</span>
+                    <p class="experience__description">
+                        Engineered a chatbot using Python and NLP, enabling automated customer
+                        support. Integrated advanced Transformer models to improve conversational
+                        accuracy.
+                    </p>
+                </div>
+
+                <div class="experience__item">
+                    <h3 class="experience__role">Full Stack Developer Intern</h3>
+                    <span class="experience__company"
+                        >EY Global Delivery Services (GDS) in collaboration with AICTE | 03/2025 – 04/2025</span
+                    >
+                    <p class="experience__description">
+                        I gained hands-on experience in MongoDB, Express.js, React.js, Node.js and Real-time
+                        communication using Soket.IO & WebSocket.
+                    </p>
+                </div>
+
+                <div class="experience__item">
+                    <h3 class="experience__role">Python Developer Intern</h3>
+                    <span class="experience__company">Oasis Infobyte | 03/2025 – 04/2025</span>
+                    <p class="experience__description">
+                        Developed a functional Voice Assistant using Python, integrating speech recognition
+                        and text-tospeech modules and Recognized as a Star Performer for exceptional
+                        dedication and impactful project delivery.
+                    </p>
+                </div>
+
+                <div class="experience__item">
+                    <h3 class="experience__role">Web Developer & Data Analyst</h3>
+                    <span class="experience__company">Freelance | 2024 – Present</span>
+                    <p class="experience__description">
+                        Created engaging Web Applications, Analysed Large Amount of datasets using AI and
+                        Machine Learning
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">My Projects</h2>
+
+  <div class="projects__grid">
+    <!-- Project Card -->
+    <div class="work__item">
+      <h3 class="work__title">AI TASK AGENT</h3>
+      <span class="work__stack">Python, Langchain, OpenAI API</span>
+      <p class="work__description">
+        An autonomous agent that plans and executes tasks using LLMs. Uses prompt chaining, memory, and tools for automation.
+      </p>
+      <a href="https://github.com/ShaikJasmin11/Ai_Agent.git" class="work__link" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="work__item">
+      <h3 class="work__title">AI VOICE ASSISTANT</h3>
+      <span class="work__stack">Python, Speech Recognition, Pyttsx3</span>
+      <p class="work__description">
+        A desktop assistant capable of voice-based tasks like opening apps, searching the web, and reporting the time.
+      </p>
+      <a href="https://github.com/ShaikJasmin11/Voice_Assistant.git" class="work__link" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="work__item">
+      <h3 class="work__title">AP TOURIST WEBSITE</h3>
+      <span class="work__stack">HTML, CSS, JavaScript</span>
+      <p class="work__description">
+        Informational tourism website showcasing major attractions in Andhra Pradesh, with responsive UI.
+      </p>
+      <a href="https://github.com/ShaikJasmin11/Ap_tourist_website.git" class="work__link" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="work__item">
+      <h3 class="work__title">WEATHER APP</h3>
+      <span class="work__stack">HTML, CSS, JS, OpenWeather API</span>
+      <p class="work__description">
+        A real-time weather app that shows temperature, wind, and humidity of a location using live data.
+      </p>
+      <a href="https://github.com/ShaikJasmin11/Weather-app.git" class="work__link" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="work__item">
+      <h3 class="work__title">REAL TIME COLLAB TOOL</h3>
+      <span class="work__stack">React, Node.js, Socket.IO</span>
+      <p class="work__description">
+        A real-time collaborative platform allowing users to code and chat simultaneously via WebSockets.
+      </p>
+      <a href="https://github.com/ShaikJasmin11/Real-time-collab-tool_final.git" class="work__link" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+</section>
+
+         <!--===== CONTACT =====-->
+            <!--===== CONTACT =====-->
+<section class="contact section" id="contact">
+  <h2 class="section-title">
+    Contact Me
+  </h2>
+
+  <div class="contact__container">
+    <!-- Contact Info -->
+    <div class="contact__info">
+      <div class="contact__item">
+        <div class="icon-circle">
+          <i class='bx bx-phone'></i>
+        </div>
+        <div>
+          <p class="label">Phone</p>
+          <p class="info-text">+91 9849972100</p>
+        </div>
+      </div>
+
+      <div class="contact__item">
+        <div class="icon-circle">
+          <i class='bx bx-envelope'></i>
+        </div>
+        <div>
+          <p class="label">Email</p>
+          <p class="info-text">shaikjasmin100@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="contact__item">
+        <div class="icon-circle">
+          <i class='bx bx-map'></i>
+        </div>
+        <div>
+          <p class="label">Location</p>
+          <p class="info-text">Gudur, Andhra Pradesh, India</p>
+        </div>
+      </div>
+
+      <div class="contact__item">
+        <div class="icon-circle">
+          <i class='bx bx-link'></i>
+        </div>
+        <div class="contact__socials">
+        <a href="https://linkedin.com/in/jasminshaik-tech" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/ShaikJasmin11" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://x.com/jasmin_sha51456" target="_blank"><i class="bx bxl-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact__form-container">
+      <form class="contact__form" id="contactForm">
+    <input type="text" name="name" id="name" placeholder="Name" class="contact__input" required />
+    <input type="email" name="email" id="email" placeholder="Email" class="contact__input" required />
+    <input type="text" name="subject" id="subject" placeholder="Subject" class="contact__input" required />
+    <textarea name="message" id="message" placeholder="Message" rows="6" class="contact__input" required></textarea>
+    <button type="submit" class="contact__button">Send Message</button>
+</form>
+    </div>
+  </div>
+</section>
+
+        </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Jasmin Shaik</p>
+        <div class="footer__social">
+            <a href="https://medium.com/@shaikjasmin100" class="footer__icon" target="_blank"
+                ><i class="bx bxl-medium"></i
+            ></a>
+            <a href="https://www.instagram.com/jassie_.18?igsh=MXVxZzZnMmI1YXh6eA==" class="footer__icon" target="_blank"
+                ><i class="bx bxl-instagram"></i
+            ></a>
+            <a href="https://x.com/jasmin_sha51456" class="footer__icon" target="_blank"
+                ><i class="bx bxl-twitter"></i
+            ></a>
+        </div>
+        <p class="footer__copy">&#180; Jasmin. All rights reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+    </body>
+</html>
